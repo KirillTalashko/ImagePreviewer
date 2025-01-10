@@ -54,10 +54,6 @@ dependencies {
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
 
-    //OkHttp
-    implementation(libs.okhttp)
-    implementation(libs.logging.interceptor)
-
     // Gson Converter
     implementation(libs.converter.gson)
 
@@ -71,4 +67,7 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.lifecycle.livedata.ktx)
     implementation(libs.androidx.lifecycle.process)
+
+    // PhotoView
+    implementation(libs.photoview.v230)
 }
